@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p strong {
+    background-color: salmon;
+    color: white;
+    font-style: italic;
+}
+
+section.prueba01 {
+    width: 80%;
+    padding: 15px;
+    border: 5px;
+    background-color: salmon;
+}
+
+.parrafo-destacado {
+    color: salmon;
+    font-size: 30px;
+    /* line-height (interlineado) debe ser mayor que el font-size en 8px (aprox) */
+    line-height: 38px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+    font-weight: bold;
+}
