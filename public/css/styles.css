@@ -3,58 +3,50 @@
 body {
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-    background-color: pink;
 }
 
-p {
-    font-size: 17px;
-    line-height: 24px;
+.main-header {
+    background-color: #eac926;
+    padding: 20px;
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: 300;
+.logo-mercado-liebre {
+    width: 200px;
 }
 
-h2 {
-    font-size: 20px;
+.copy-header {
+    font-weight: 400;
+    text-align: center;
 }
 
-h3 {
-    font-size: 24px;
-}
-
-p strong {
-    background-color: salmon;
-    color: white;
-    font-style: italic;
-}
-
-section.prueba01 {
-    width: 80%;
-    padding: 15px;
-    border: 5px;
-    background-color: salmon;
-}
-
-.parrafo-destacado {
-    color: salmon;
-    font-size: 30px;
-    /* line-height (interlineado) debe ser mayor que el font-size en 8px (aprox) */
-    line-height: 38px;
-}
-
-.precios {
+.hamburguer-button {
+    background-color: #03264c;
+    color: #fff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
     font-size: 18px;
+    margin: auto;
 }
 
-.descuentos {
-    font-size: 16px;
+.main-navbar {
+    display: none;
 }
 
-.descripciones {
-    font-size: 16px;
-    font-weight: bold;
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 15px 0px;
+    font-size: 17px;    
 }
 
 div.contenedor01 {
