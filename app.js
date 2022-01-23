@@ -12,9 +12,9 @@ app.listen(3000, () => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/home.html'));
+    res.sendFile(path.resolve(__dirname, './src/views/home.html'));
 });
 
 app.get('/nuevaPagina', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/nuevaPagina.html'));
+    res.sendFile(path.resolve(__dirname, './src/views/nuevaPagina.html'));
 });

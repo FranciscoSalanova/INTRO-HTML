@@ -49,70 +49,65 @@ body {
     font-size: 17px;    
 }
 
-div.contenedor01 {
-    width: 90vw;
+@media (min-width: 768px) {
     
-}
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
 
-div.contenedor02 {
-    width: 50vw;
-}
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
 
-@media (max-width: 576px) {
-    body {
-        background-color: yellow;
+    .hamburguer-button {
+        display: none;
     }
-    
-    div {
-        width: 70vw;
-        margin:auto;
-    }
-}
 
-@media (min-width: 577px) and (max-width: 768px) {  
-    body {
-        background-color: white;
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
     }
-    
-    div.contenedor01 {
-        width: 90vw;
-        background-color: red;    
+
+    .main-navbar ul {
+        display: flex;
     }
-    
-    div.contenedor02 {
-        width: 50vw;
-        background-color: blue;
+
+    .main-navbar li {
+        margin: 0px 5px;
     }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
-    
-    div.contenedor01 {
-        width: 90vw;
-        border: solid 10px #000;   
-    }
-    
-    div.contenedor02 {
-        width: 50vw;
-        border: solid 10px #000;
-    }
-}
+@media (min-width: 1200px) {
 
-@media (min-width: 993px) and (max-width: 1200px) {
-    
-    div.contenedor01 {
-        width: 90vw;
-        background-color: red;
+    .logo-mercado-liebre {
+        width: 300px;
     }
     
-    div.contenedor02 {
-        width: 50vw;
-        background-color: blue;       
+    .main-header-top-bar,
+    .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+        /* border: solid olive 5px; */
     }
 
-    .contenedor01,
-    .contenedor02 {
-        border: solid 10px #000;
-        max-width: 1100px;
+    .main-header-top-bar {
+        padding: 12px 0px;
+        align-items: center;
+    }
+
+    .copy-header {
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .main-navbar li {
+        margin: 0px 10px;
+    }
+
+    .main-navbar a {
+        font-size: 19px;
     }
 }
