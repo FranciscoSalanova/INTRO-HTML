@@ -40,8 +40,22 @@
 
             <!-- <img src="/images/img-home-banner.jpg" alt="Banner de Mercado Liebre" width="350"> -->
         </header>
-        <!-- <main>
-            <section>
+        <main>
+            <form action="/crear-producto" method="POST">
+                <div>
+                    <label for="product-name">Nombre del producto:</label>
+                    <input name="product-name" type="text">
+                </div>
+                <div>
+                    <label for="product-price">Precio del producto:</label>
+                    <input name="product-price" type="text">
+                </div>
+                <div>
+                    <label for="is-promo">Está en oferta:</label>
+                    <input name="is-promo" type="radio">
+                </div>
+            </form>
+            <!-- <section>
                 <h2>Basado en tu última visita</h2>
                 <article>
                     <header>
@@ -192,9 +206,9 @@
                         </p>
                     </footer>
                 </article>
-            </section>
+            </section> -->
         </main>
-        <footer>
+        <!-- <footer>
             <h4>Pagá con tarjeta o en efectivo</h4>
 
             <p>
