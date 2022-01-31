@@ -49,6 +49,33 @@ body {
         font-size: 17px;    
     }
 
+form.create-form {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+    div.form-control {
+        margin-bottom: 15px;
+    }
+
+    div.form-control label {
+        margin-bottom: 5px;
+        font-style: italic;
+        display: block;
+    }
+
+        select.control {
+            width: 100px;
+            padding: 8px 8px;
+        }
+    
+    button.form-button {
+        background-color: #39b54a;
+        border: none;
+        font-size: 20px;
+        color: white;
+    }
+
 @media (min-width: 768px) {
     
     .main-header-top-bar {

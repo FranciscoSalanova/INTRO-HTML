@@ -41,18 +41,42 @@
             <!-- <img src="/images/img-home-banner.jpg" alt="Banner de Mercado Liebre" width="350"> -->
         </header>
         <main>
-            <form action="/crear-producto" method="POST">
-                <div>
+            <form class="create-form" action="/crear-producto" method="POST">
+                <div class="form-control">
                     <label for="product-name">Nombre del producto:</label>
                     <input name="product-name" type="text">
                 </div>
-                <div>
+                <div class="form-control">
                     <label for="product-price">Precio del producto:</label>
                     <input name="product-price" type="text">
                 </div>
-                <div>
+                <div class="form-control">
+                    <label for="product-category">Categoría:</label>
+                    <select class="control" name="product-category">
+                        <option value="hogar">Hogar</option>
+                        <option value="electro">Electrodomésticos</option>
+                        <option value="indumentaria">Indumentaria</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="city-available">Ciudad:</label>
+                    <select class="control" name="city-available">
+                        <option value="BSAS">Buenos Aires</option>
+                        <option value="ROSA">Rosario</option>
+                        <option value="MEDZ">Mendoza</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="">Descripción:</label>
+                    <textarea name="product-description"></textarea>
+                </div>
+                <div class="form-control">
                     <label for="is-promo">Está en oferta:</label>
                     <input name="is-promo" type="radio">
+                </div>
+                <div class="form-control">
+                    <button class="form-button" name="delete" type="reset">Borrar</button>
+                    <button class="form-button" name="send" type="submit">Enviar</button>
                 </div>
             </form>
             <!-- <section>
