@@ -6,8 +6,11 @@ body {
 }
 
 .main-header {
+    position: fixed;
+    z-index: 100;
     background-color: #eac926;
     padding: 20px;
+    top: 0;
 }
 
 .logo-mercado-liebre {
@@ -35,46 +38,69 @@ body {
     display: none;
 }
 
-    .main-navbar ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-    .main-navbar a {
-        text-decoration: none;
-        color: #222222;
-        display: inline-block;
-        padding: 15px 0px;
-        font-size: 17px;    
-    }
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 15px 0px;
+    font-size: 17px;    
+}
 
 form.create-form {
     padding: 20px 15px;
     text-align: center;
+    margin-top: 241px;
 }
 
-    div.form-control {
-        margin-bottom: 15px;
+div.form-control {
+    margin-bottom: 15px;
+}
+
+div.form-control label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+    select.control {
+        width: 100px;
+        padding: 8px 8px;
     }
 
-    div.form-control label {
-        margin-bottom: 5px;
-        font-style: italic;
-        display: block;
-    }
+button.form-button {
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
 
-        select.control {
-            width: 100px;
-            padding: 8px 8px;
-        }
-    
-    button.form-button {
-        background-color: #39b54a;
-        border: none;
-        font-size: 20px;
-        color: white;
-    }
+footer {
+    padding: 10px;
+    background-color: #03264c;
+}
+
+div.imagen-contenedora {
+    position: relative;
+}
+
+div.imagen-contenedora img {
+    width: 100%;
+}
+
+div.imagen-contenedora h2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    background-color: azure;
+    margin: 5px;
+}
 
 @media (min-width: 768px) {
     
